@@ -9,14 +9,9 @@
     },
     "jenkins-runner.jobs": {
         "sputnik1 - defaults": {
-            "isDefault": false,
+            "isDefault": true,
             "runWith": ["local"],
             "name": "sputnik1",
-        },
-        "sputnik2 - defaults": {
-            "isDefault": false,
-            "runWith": ["local"],
-            "name": "sputnik2",
         },
     }
 }
