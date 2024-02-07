@@ -1,0 +1,22 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "jenkins-runner.hostConfigs": {
+        "local": {
+            "url": "http://host.docker.internal:8080",
+            "user": "eliott",
+            "password": "0e760a5d291f4d36a8955b9b7d1807e4"
+        }
+    },
+    "jenkins-runner.jobs": {
+        "sputnik1 - defaults": {
+            "isDefault": false,
+            "runWith": ["local"],
+            "name": "sputnik1",
+        },
+        "sputnik2 - defaults": {
+            "isDefault": false,
+            "runWith": ["local"],
+            "name": "sputnik2",
+        },
+    }
+}
